@@ -15,7 +15,7 @@ struct CheckoutView: View {
             VStack{
                 AsyncImage(url: URL(string: "https://unsplash.com/photos/orange-juice-in-clear-drinking-glass-TmOGarNOGFs"), scale: 3){image in
                         image
-                        .image?.resizable()
+                        .resizable()
                         .scaledToFit()
                 } placeholder: {
                     ProgressView()
